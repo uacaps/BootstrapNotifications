@@ -30,7 +30,7 @@ Example `_Layout.cshtml`:
         @RenderBody()
     </div>
     
-<small>NOTE: make sure to include bootstrap in your layout.</small>
+<sub>NOTE: make sure to include bootstrap in your layout.</sub>
     
 2. In any controller, include the `NotificationExtensions` and you can start notifying your users:
   

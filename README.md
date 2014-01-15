@@ -20,7 +20,7 @@ Alternatively, you can use the demo project from this repository.
 Setup
 ======================
 
-  1. To use this extension, you'll need to include the shared partial where you plan 
+1. To use this extension, you'll need to include the shared partial where you plan 
 on displaying the notifications. I would suggest above `@RenderBody()` in `_Layout.cshtml`.
 
 Example `_Layout.cshtml`:
@@ -32,7 +32,7 @@ Example `_Layout.cshtml`:
     
 <small>NOTE: make sure to include bootstrap in your layout.</small>
     
-  2. In any controller, include the `NotificationExtensions` and you can start notifying your users:
+2. In any controller, include the `NotificationExtensions` and you can start notifying your users:
   
 Example `HomeController.cs`:
 
@@ -51,6 +51,8 @@ Example `HomeController.cs`:
             }
         }
     }
+    
+3. You're ready to go!
     
 The available `NotificationType`s are:
   - ERROR

@@ -53,6 +53,8 @@ Setup
     }
     
 3. You're ready to go!
+
+------------------
     
 The available `NotificationType`s are:
   - ERROR

@@ -7,12 +7,14 @@ Bootstrap Notifications is a controller extension built with bootstrap for ASP.N
 Installation
 ======================
 
-You can download it directly using Nuget:
+You can download it using the Package Manager Console:
 
      Install-Package BootstrapNotifications
      
+or download it from [NuGet](https://www.nuget.org/packages/BootstrapNotifications/)
      
-Alternately, you can use the demo project hosted here. 
+     
+Alternatively, you can use the demo project from this repository. 
 
 
 Setup

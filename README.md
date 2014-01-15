@@ -3,6 +3,8 @@ BootstrapNotifications
 
 Bootstrap Notifications is a controller extension built with bootstrap for ASP.NET MVC projects. It enables you to easily notify your users per request from the controller. 
 
+![Screenshot of demo project][1]
+
 
 Installation
 ======================
@@ -61,6 +63,9 @@ The available `NotificationType`s are:
   - WARNING
   - SUCCESS
   - INFO
+
+  
+[1]: https://raw.github.com/MFFoX/BootstrapNotifications/master/Screenshot.png
   
   
     

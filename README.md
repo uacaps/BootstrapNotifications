@@ -21,20 +21,20 @@ Setup
 ======================
 
 1. To use this extension, you'll need to include the shared partial where you plan 
-on displaying the notifications. I would suggest above `@RenderBody()` in `_Layout.cshtml`.
+   on displaying the notifications. I would suggest above `@RenderBody()` in `_Layout.cshtml`.
 
-Example `_Layout.cshtml`:
+   **Example `_Layout.cshtml`:**
 
     <div class="container">
         @Html.Partial("_Notifications")
         @RenderBody()
     </div>
     
-<sub>NOTE: make sure to include bootstrap in your layout.</sub>
+    <sub>NOTE: make sure to include bootstrap in your layout.</sub>
     
 2. In any controller, include the `NotificationExtensions` and you can start notifying your users:
   
-Example `HomeController.cs`:
+   **Example `HomeController.cs`:**
 
     using System.Web.Mvc;
     using YourApp.Extensions;

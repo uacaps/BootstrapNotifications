@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Notification Demo - @ViewBag.Title</title>
+        @Styles.Render("~/Content/bootstrap.min.css")
+        @Scripts.Render("~/Scripts/jquery-1.10.2.min.js")
+        @Scripts.Render("~/Scripts/bootstrap.min.js")
+
+        <style type="text/css">
+            /* Move down content because we have a fixed navbar that is 50px tall */
+            body {
+              padding-top: 50px;
+              padding-bottom: 20px;
+            }
+        </style>
+    </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="@Url.Action("Index", "Home")">Bootstrap Notifications</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notification Types <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="@Url.Action("ErrorDemo", "Home")">Errors</a></li>
+                <li><a href="@Url.Action("WarningDemo", "Home")">Warnings</a></li>
+                <li><a href="@Url.Action("SuccessDemo", "Home")">Success</a></li>
+                <li><a href="@Url.Action("InfoDemo", "Home")">Info</a></li>
+                <li class="divider"></li>
+                <li><a href="@Url.Action("ErrorsDemo", "Home")">Multi Same Type</a></li>
+                <li><a href="@Url.Action("MultiDemo", "Home")">Multi Same Type</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Stay Notified</h1>
+        <p>This demo illustrates Bootstrap Notifications, an MVC extension that makes it easy to notify your users all using Bootstrap Alerts.</p>
+          <p><a href="http://getbootstrap.com/components/#alerts" target="_blank" class="btn btn-success btn-lg">Learn more about alerts</a></p>
+      </div>
+    </div>
+    <div class="container">
+        @RenderSection("header", required:false)
+        @Html.Partial("_Notifications")
+        @RenderBody()
+
+      <hr>
+
+      <footer>
+        <p>© Company 2013</p>
+      </footer>
+    </div>
+  </body>
+</html>

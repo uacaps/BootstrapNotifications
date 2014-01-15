@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BootstrapNotifications</id>
+    <title>MVC Bootstrap Notifications</title>
+    <version>0.3.1</version>
+    <authors>Carrie Kendall</authors>
+    <owners>Carrie Kendall</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bootstrap Notifications is a controller extension built with bootstrap for ASP.NET MVC projects. It enables you to easily notify your users per request from the controller.</description>
+    <tags>MVC bootstrap3 bootstrap notify notifications</tags>
+    <dependencies>
+      <dependency id="bootstrap" version="3.0.0" />
+    </dependencies>
+  </metadata>
+</package>

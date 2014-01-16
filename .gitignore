@@ -136,4 +136,5 @@ App_Data/*.ldf
 
 #custom
 BootstrapNotifications.licenseheader
+*.sln
 

@@ -3,11 +3,15 @@
   <metadata>
     <id>BootstrapNotifications</id>
     <title>MVC Bootstrap Notifications</title>
-    <version>0.3.1</version>
+    <projectUrl>https://github.com/uacaps/BootstrapNotifications</projectUrl>
+    <licenseUrl>https://raw.github.com/uacaps/BootstrapNotifications/master/LICENSE</licenseUrl>
+    <version>0.3.2</version>
     <authors>Carrie Kendall</authors>
     <owners>Carrie Kendall</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright (c) 2014 The Board of Trustees of The University of Alabama</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Bootstrap Notifications is a controller extension built with bootstrap for ASP.NET MVC projects. It enables you to easily notify your users per request from the controller.</description>
+    <summary>Bootstrap Notifications is a controller extension that enables you to easily notify your users per request from the controller.</summary>
     <tags>MVC bootstrap3 bootstrap notify notifications</tags>
     <dependencies>
       <dependency id="bootstrap" version="3.0.0" />

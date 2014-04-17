@@ -54,7 +54,7 @@ Setup
         }
     }
 
-	![Screenshot of demo index code snippet][2]
+![Screenshot of demo index code snippet][2]
     
 3. You're ready to go!
 

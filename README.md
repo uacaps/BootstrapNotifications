@@ -53,6 +53,8 @@ Setup
             }
         }
     }
+
+	![Screenshot of demo index code snippet][2]
     
 3. You're ready to go!
 
@@ -66,6 +68,7 @@ The available `NotificationType`s are:
 
   
 [1]: https://raw.github.com/MFFoX/BootstrapNotifications/master/Screenshot.png
+[2]: https://raw.github.com/MFFoX/BootstrapNotifications/master/Demo-example.png
   
   
     

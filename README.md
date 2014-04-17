@@ -27,10 +27,10 @@ Setup
 
    **Example `_Layout.cshtml`:**
 
-    <div class="container">
-        @Html.Partial("_Notifications")
-        @RenderBody()
-    </div>
+        <div class="container">
+            @Html.Partial("_Notifications")
+            @RenderBody()
+        </div>
     
     <sub>NOTE: make sure to include bootstrap in your layout.</sub>
     
@@ -38,21 +38,21 @@ Setup
   
    **Example `HomeController.cs`:**
 
-    using System.Web.Mvc;
-    using YourApp.Extensions;
+        using System.Web.Mvc;
+        using YourApp.Extensions;
     
-    namespace YourApp.Controllers
-    {
-        public class HomeController : Controller
+        namespace YourApp.Controllers
         {
-    
-            public ActionResult Index()
+            public class HomeController : Controller
             {
-                this.AddNotification("You're on fire, run!", NotificationType.ERROR);
-                return View("Index");
+    
+                public ActionResult Index()
+                {
+                    this.AddNotification("You're on fire, run!", NotificationType.ERROR);
+                    return View("Index");
+                }
             }
         }
-    }
 
 ![Screenshot of demo index code snippet][2]
     
@@ -61,10 +61,10 @@ Setup
 ------------------
     
 The available `NotificationType`s are:
-  - ERROR
-  - WARNING
-  - SUCCESS
-  - INFO
+  - [ERROR](https://github.com/uacaps/BootstrapNotifications/blob/master/src/BootstrapNotifications/Extensions/NotificationExtensions.cs#L94)
+  - [WARNING](https://github.com/uacaps/BootstrapNotifications/blob/master/src/BootstrapNotifications/Extensions/NotificationExtensions.cs#L95)
+  - [SUCCESS](https://github.com/uacaps/BootstrapNotifications/blob/master/src/BootstrapNotifications/Extensions/NotificationExtensions.cs#L96)
+  - [INFO](https://github.com/uacaps/BootstrapNotifications/blob/master/src/BootstrapNotifications/Extensions/NotificationExtensions.cs#L97)
 
   
 [1]: https://raw.github.com/MFFoX/BootstrapNotifications/master/Screenshot.png
